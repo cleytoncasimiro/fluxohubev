@@ -12,7 +12,7 @@ import {
   CheckCircle2,
   MessageCircle
 } from "lucide-react";
-import { SiInstagram, SiLinkedin, SiX } from "react-icons/si";
+import { SiInstagram, SiLinkedin } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -164,14 +164,11 @@ export default function Contato() {
               <motion.div variants={staggerItem}>
                 <h3 className="text-xl font-bold mb-6">Siga a FLUXO HUB</h3>
                 <div className="flex gap-4">
-                  <a href="#" className="w-12 h-12 rounded-full border border-border flex items-center justify-center hover:bg-primary/10 hover:border-primary transition-colors text-foreground">
+                  <a href="https://www.linkedin.com/company/fluxohub" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-border flex items-center justify-center hover:bg-primary/10 hover:border-primary transition-colors text-foreground">
                     <SiLinkedin size={20} />
                   </a>
-                  <a href="#" className="w-12 h-12 rounded-full border border-border flex items-center justify-center hover:bg-primary/10 hover:border-primary transition-colors text-foreground">
+                  <a href="https://www.instagram.com/fluxohub.ev/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-border flex items-center justify-center hover:bg-primary/10 hover:border-primary transition-colors text-foreground">
                     <SiInstagram size={20} />
-                  </a>
-                  <a href="#" className="w-12 h-12 rounded-full border border-border flex items-center justify-center hover:bg-primary/10 hover:border-primary transition-colors text-foreground">
-                    <SiX size={20} />
                   </a>
                 </div>
               </motion.div>

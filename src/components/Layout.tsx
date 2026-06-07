@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
 import { Menu, X, Zap, ChevronRight, MapPin, Mail, Phone, ExternalLink, Infinity, Download } from 'lucide-react';
-import { SiApple, SiGoogleplay, SiInstagram, SiLinkedin, SiFacebook } from 'react-icons/si';
+import { SiApple, SiGoogleplay, SiInstagram, SiLinkedin } from 'react-icons/si';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
@@ -141,14 +141,11 @@ export function Layout({
                 Liderando a infraestrutura de mobilidade elétrica no Brasil com soluções inteligentes, sustentáveis e de alta performance para o futuro da energia.
               </p>
               <div className="flex items-center gap-4">
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://www.instagram.com/fluxohub.ev/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <SiInstagram size={20} />
                 </a>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://www.linkedin.com/company/fluxohub" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <SiLinkedin size={20} />
-                </a>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  <SiFacebook size={20} />
                 </a>
               </div>
             </div>
