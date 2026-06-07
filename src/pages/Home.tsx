@@ -179,7 +179,7 @@ Fluxo HUB — Conectando energia, tecnologia e movimento
           }} viewport={{
             once: true
           }}>
-              <img src={IMAGES.WHATSAPP_IMAGE_2026_01_28_AT_12_54_01_46} alt="Fluxo Hub App" className="w-[300px] md:w-[400px] drop-shadow-[0_0_50px_rgba(10,205,162,0.3)] h-[600px] object-cover" />
+              <img src={IMAGES.WHATSAPP_IMAGE_2026_01_28_AT_12_54_02_3_48} alt="Fluxo Hub App - Mapa de Eletropostos" className="w-[300px] md:w-[400px] drop-shadow-[0_0_50px_rgba(10,205,162,0.3)] h-[600px] object-cover" />
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] -z-10" />
             </motion.div>
             <motion.div {...fadeInUp}>
